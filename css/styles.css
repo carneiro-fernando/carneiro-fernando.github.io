@@ -605,7 +605,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -1936,7 +1936,7 @@ progress {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-
+/* Begin here to search for the item in charge of width of images */
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -7030,9 +7030,9 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
+/* .d-flex {
   display: flex !important;
-}
+} */
 
 .d-inline-flex {
   display: inline-flex !important;
@@ -8456,6 +8456,10 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  /* d-flex adicionado abaixo */
+  .d-flex {
+    display: flex !important;
+  }
   .float-sm-start {
     float: left !important;
   }
@@ -9066,6 +9070,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
+
 @media (min-width: 768px) {
   .float-md-start {
     float: left !important;
