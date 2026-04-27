@@ -1,0 +1,1 @@
+const { chromium } = require('playwright'); (async () = const b = await chromium.launch(); const p = await b.newPage(); p.on('console', msg =, msg.text())); p.on('pageerror', err =, err.message)); await p.goto('http://localhost:5173/'); await p.waitForTimeout(5000); await b.close(); })()  
