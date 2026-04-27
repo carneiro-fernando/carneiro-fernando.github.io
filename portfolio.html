@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fernando Carneiro - Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Fernando Carneiro</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Currículo</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Portfolio</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 0-->  
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 " onclick="handleClickCard0()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <p><h2 class="fw-bolder">Data Pipeline | AWS - Whatsapp - Telegram</h2></p>
+                                            <strong>Veja a apresentação deste projeto <a href="https://www.youtube.com/live/NN229AeHW7o?si=CmpITXQgFTYyH4WD&t=4552">aqui.</a></strong>
+                                            <p>Desenvolvimento de um pipeline de dados utilizando os serviços em nuvem da AWS, incorporando um processo ETL para extrair dados do Telegram e WhatsApp por meio de APIs. Os dados são então transferidos para um Datalake e processados em lote na nuvem de acordo com uma agenda, proporcionando as informações prontas para a análise no serviço QuickSight da Amazon.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_pipeline_300x400.gif" alt="Live do projeto" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                            function handleClickCard0() {
+                                window.window.open("https://github.com/carneiro-fernando/EBAC/blob/main/Projetos/pipeline-aws-whatsapp-telegram.ipynb");
+                            }
+                            </script>
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" onclick="handleClickCard1()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Reconhecimento de LIBRAS usando Machine Learning</h2>
+                                            <strong>Veja a apresentação deste projeto <a href="https://www.youtube.com/watch?v=dOTQca9Yhw4">aqui.</a></strong>
+                                            <p>O principal objetivo deste projeto é desenvolver um sistema que utilize machine learning para reconhecer e interpretar letras do alfabeto em Língua Brasileira de Sinais (LIBRAS) e apresentá-las na tela em tempo real. Foi utilizada uma rede neural convolucional de duas dimensões (2D) com ativação ReLU para o processamento e reconhecimento de imagens.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_libras_300x400.gif" alt="Video do projeto" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                            function handleClickCard1() {
+                                window.window.open("https://github.com/carneiro-fernando/Machine-Learning-Reconhecedor-de-Libras");
+                            }
+                            </script>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" onclick="handleClickCard2()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Análise de Dados: COVID-19 Dashboard</h2>
+                                            <strong>Veja o dashboard deste projeto <a href="https://lookerstudio.google.com/reporting/4a54b790-0672-486e-81fd-037fc2506a06">aqui.</a></strong>
+                                            <p>Este projeto apresenta uma análise aprofundada do impacto da pandemia de COVID-19 durante o período de 2020 a 2022 em quatro países - Brasil, Alemanha, Índia e Estados Unidos. Utilizamos indicadores como o Índice de Desenvolvimento Humano (IDH) e o Produto Interno Bruto com paridade de Poder de Compra (PPC) para contextualizar os efeitos da pandemia. Além da análise realizada no Jupyter Notebook, também criamos um painel de visualização interativo na plataforma Looker Studio.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_dashboard_300x400.jpg" alt="Captura de tela do dashboard" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function handleClickCard2() {
+                                    window.window.open("https://github.com/carneiro-fernando/EBAC/blob/main/Projetos/An%C3%A1lise_de_Dados_Interativa_COVID_19_Dashboard.ipynb");
+                                }
+                                </script>
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" onclick="handleClickCard3()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Regressão Linear para o Mercado Financeiro</h2>
+                                            <p>Este projeto, em parceria com a EBAC e a Semantix, apresenta um processo completo de ETL utilizando a API yFinance para scrapping do site Yahoo Finance. Os dados são valores de ações na bolsa de valores das empresas do setor de saúde. Realizamos uma análise aprofundada dos dados obtidos, procurando padrões e insights usando várias técnicas, incluindo a aplicação do coeficiente de Pearson e a plotagem de gráficos de calor. Em seguida, desenvolvemos classes Orientadas a Objeto que realizam o preparo dos dados, o treinamento e a predição de valores usando a técnica de Machine Learning chamada Regressão Linear.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_mfinanceiro_300x400.jpg" alt="Thumbnail projeto mercado financeiro" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function handleClickCard3() {
+                                    window.window.open("https://github.com/carneiro-fernando/EBAC/blob/main/Projetos/Projeto_de_Parceria.ipynb");
+                                }
+                                </script>
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" onclick="handleClickCard4()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Análise Exploratória de Dados de Logística (Loggi)</h2>
+                                            <p>Neste projeto, mergulhamos profundamente nos dados de uma empresa de logística real. Desde a coleta e limpeza dos dados até a criação de visualizações perspicazes e descoberta de insights valiosos, este projeto demonstra minha capacidade de trabalhar com dados complexos em um cenário do mundo real. Um destaque deste projeto é o uso da API de geocodificação Nominatim para enriquecer nossos dados com informações geográficas.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_loggi_300x400.jpg" alt="Captura de tela do projeto" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function handleClickCard4() {
+                                    window.window.open("https://github.com/carneiro-fernando/EBAC/blob/main/Projetos/Analise_Exploratoria_de_Dados_de_Logistica_(Loggi).ipynb");
+                                }
+                                </script>
+                            <!-- Project Card 5-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0" onclick="handleClickCard5()">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Análise Exploratória de Dados: Cartões de crédito</h2>
+                                            <p>Neste projeto, realizei uma análise de dados de usuários de cartão de crédito, demonstrando minha capacidade de trabalhar com a plataforma AWS. Utilizamos os serviços S3 para armazenamento e Athenas para manipulação dos dados. A linguagem utilizada no desenvolvimento da análise foi Structured Query Language (SQL), demonstrando minha habilidade em trabalhar com bancos de dados.</p>
+                                        </div>
+                                        <img class="img-fluid rounded-4" src="assets/projeto_edacredito_300x400.jpg" alt="Logo cartão de crédito" />
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function handleClickCard5() {
+                                    window.window.open("https://github.com/carneiro-fernando/EBAC/blob/main/Projetos/EDA_of_credit_card.ipynb");
+                                }
+                                </script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Vamos criar algo juntos?</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contato</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Fernando Carneiro 2024</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement">Privacidade</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="https://docs.github.com/pt/site-policy/github-terms/github-terms-of-service">Termos</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="contact.html">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
